@@ -22,8 +22,6 @@ public class Notification {
     @Column(nullable = false)
     private Role role;
 
-    
-
     @ManyToOne
     @JoinColumn(name = "admin_id")
     private Admin admin;
