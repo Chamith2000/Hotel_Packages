@@ -23,6 +23,8 @@ public class Package {
 
     private GuestCount guestCount;
 
+//    private String name2;
+
     @OneToOne(mappedBy = "packages", cascade = CascadeType.ALL)
     private BoostPackage boostPackage;
 
